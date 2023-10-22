@@ -1,0 +1,280 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.list-group input[type="radio"]:checked+.list-group-item:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 26px;
+    content: "";
+    background: url(/assets/img/verified-ourastore.png) top/cover;
+    text-align: center;
+}
+
+  .col-bjconfirm {
+      flex: 0 0 auto;
+      width: 50%;
+      font-size: 14px;
+      text-align: right;
+  }
+  .btn-ordernow:hover{
+      color: #fff;
+      background-color: #535a62;
+      border-color: #4b4e51;
+  }
+  .col-bjconfirm2 {
+      flex: 0 0 auto;
+      width: 50%;
+      font-size: 14px;
+      text-align: left;
+  }
+  .col-bjconfirm3 {
+      flex: 0 0 auto;
+      width: 100%;
+      font-size: 11px;
+      text-align: center;
+  }
+  .ap-otp-input {
+      border: 3px solid #ebebeb;
+      border-radius: 18px;
+      width: 35px;
+      height: 53px;
+      margin: 4px;
+      text-align: center;
+      font-size: 35px;
+  }
+
+  .child-box:hover {
+      border: 1px solid #B19973;
+  }
+
+
+  .bangjeff-dicek {
+          font-size: 9px;
+          font-style: italic;
+          color: #B19973;
+      }
+
+  .ap-otp-input:focus {
+      outline: none !important;
+      border: 3px solid #B19973;
+      transition: 0.12s ease-in;
+  }
+  .list-group-item {
+      user-select: none;
+  }
+  .list-group-item:last-child {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+
+  .list-group input[type="radio"] {
+      display: none;
+  }
+  .list-group1 input[type="radio"] {
+      display: none;
+  }
+  .list-group input[type="radio"]+.list-group-item {
+      text-align: center;
+      cursor: pointer;
+      background-color: #282c30;
+      color: #dcddeb;
+      border-color: transparent;
+      border: 2px solid #282c30;
+      font-size: 12px;
+  }
+
+  .nominal-price {
+      font-size: 11px;
+      text-align: left;
+  }
+
+  .name-prod {
+      /* font-weight:600; */
+      color: #ffffff;
+      /* padding: 0%; */
+      text-align: left;
+  }
+
+  .list-group input[type="radio"]+label>.row>.col>.row>.nominal-price {
+      color: #dee2e6;
+      /* font-style: bold; */
+      /* font-family: 'bangjeff-comic';
+      font-style: italic; */
+  }
+  .list-group input[type="radio"]:checked+label>.row>.col>.row>.nominal-price {
+      color: #B19973;
+      /* font-family: 'bangjeff-comic'; */
+      /* font-style: bold; */
+      /* font-style: italic; */
+  }
+
+  .list-group input[type="radio"]+.list-group-item:before {
+      /* content: "\2713"; */
+      color: transparent;
+      font-weight: bold;
+      /* margin-right: 1em; */
+
+  }
+
+  .list-group input[type="radio"]+.list-group-item:hover {
+      cursor: pointer;
+      background-color: #adadad43;
+      color: #ffffff;
+      border-color: #adadad43;
+
+      font-size: 12px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+  }
+  .list-group input[type="radio"]:checked+.list-group-item:before {
+      color: inherit;
+  }
+  .list-group input[type="radio"]:checked+.list-group-item:after {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 28px;
+      height: 26px;
+      content: "";
+      background: url(/assets/img/verified-ourastore.png) top/cover;
+      text-align: center;
+  }
+  .list-group input[type="radio"]:checked+.list-group-item {
+      color: #ef222243;
+      font-size: 12px;
+      border: 2px solid #c9c9c993;
+      box-shadow: 0 0 2.22222vw #ababab, inset 0 2.40741vw 8.05556vw #adadad43, inset 0 -8.24074vw 11.48148vw #adadad43;
+      overflow: hidden;
+  }
+  .list-group1 input[type="radio"]:checked+.list-group-item:before {
+      color: inherit;
+  }
+  .list-group1 input[type="radio"]:checked+.list-group-item {
+      background-color: #ffffff;
+      color: #B19973;
+      font-size: 12px;
+      display: block;
+      -webkit-filter: grayscale(0%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(0%);
+  }
+  .list-group1 input[type="radio"]+.list-group-item {
+      text-align: center;
+      cursor: pointer;
+      /* background-color: #e8e8e8;
+      color: #fe6c17; */
+      border-color: transparent;
+      box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+      font-size: 12px;
+      border-radius: 3px;
+      background: rgb(208, 208, 208);
+      -webkit-filter: grayscale(100%);
+      /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+  }
+  .list-group1 input[type="radio"]+.list-group-item:hover {
+      cursor: pointer;
+      background-color: #ffffff;
+      color: #fe6c17;
+      border-color: #ffffff;
+      box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+      font-size: 12px;
+      border-radius: 3px;
+  }
+  .list-group1 input[type="radio"]:checked+.list-group-item:before {
+      color: inherit;
+  }
+
+      /* .list-group input[type="radio"]+.list-group-item:hover {
+          cursor: pointer;
+          background-color: rgba(255, 255, 230, 0.5);
+          color: rgb(102, 102, 102);
+          border-color: #B19973;
+
+          font-size: 12px;
+      }
+      .list-group input[type="radio"]:checked+.list-group-item {
+          background-color: #B19973;
+          color: #FFF;
+          font-size: 12px;
+      } */
+
+      #payment{
+          color:#db2525;
+      }
+
+      .list-group1 input[type="radio"]:checked+.list-group-item:after {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 28px;
+          height: 26px;
+          content: "";
+          background: url(/assets/img/verified-ourastore.png) top/cover;
+          filter:drop-shadow(2px 4px 6px black);
+          text-align: center;
+      }
+      .list-group1 input[type="radio"]:checked+.list-group-item:before {
+          color: inherit;
+      }
+      .list-group1 input[type="radio"]:checked+.list-group-item:before {
+          color: inherit;
+      }
+      .list-group1 input[type="radio"]:checked+.list-group-item {
+          background-color: #ffffff;
+          color: #B19973;
+          font-size: 12px;
+          display: block;
+          -webkit-filter: grayscale(0%);
+          /* Safari 6.0 - 9.0 */
+          filter: grayscale(0%);
+      }
+      .list-group1 input[type="radio"]+.list-group-item {
+          text-align: center;
+          cursor: pointer;
+          /* background-color: #e8e8e8;
+          color: #0d6efd; */
+          border-color: transparent;
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 5px 10px 0 rgba(0,0,0,0.19);
+          font-size: 12px;
+          border-radius: 3px;
+          background: rgb(208, 208, 208);
+          -webkit-filter: grayscale(100%);
+          /* Safari 6.0 - 9.0 */
+          filter: grayscale(100%);
+      }
+      .list-group1 input[type="radio"]+.list-group-item:hover {
+          cursor: pointer;
+          background-color: #ffffff;
+          color: #B19973;
+          border-color: #ffffff;
+          box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 12px 0 rgba(0,0,0,0.19);
+          font-size: 12px;
+          border-radius: 3px;
+      }
+      .list-group1 input[type="radio"]:checked+.list-group-item:before {
+          color: inherit;
+      }
+
+      .button-action-payment .info-top img {
+          width: 100%;
+          max-height: 20px;
+          -o-object-fit: contain;
+          object-fit: contain;
+          vertical-align: middle;
+
+      }
